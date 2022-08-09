@@ -1,0 +1,31 @@
+body{
+    background: royalblue;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    .contenedor__pancarta, 
+    .contenedor__tarjeta{
+        width: 100%;
+    }
+    .contenedor__pancarta{
+        text-align: center;
+    }
+    .contenedor__tarjeta{
+        text-align: center;
+        color: initial;
+        background:white;
+        border-radius: 2rem 1rem 0 0;
+    }
+    .contenedor__tarjeta:not(:empty){
+        padding: 1rem;
+    }
